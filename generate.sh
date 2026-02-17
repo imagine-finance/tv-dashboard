@@ -24,8 +24,7 @@ if [ -z "${LIGHTDASH_API_KEY:-}" ]; then
     exit 1
 fi
 
-lightdash login --token "$LIGHTDASH_API_KEY" --url "$LIGHTDASH_SERVER_URL"
-lightdash config set-project --uuid "$LIGHTDASH_PROJECT_ID"
+lightdash login "$LIGHTDASH_SERVER_URL" --token "$LIGHTDASH_API_KEY" --project "$LIGHTDASH_PROJECT_ID"
 
 echo "  Lightdash configured for project $LIGHTDASH_PROJECT_ID"
 

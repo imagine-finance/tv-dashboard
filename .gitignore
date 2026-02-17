@@ -1,0 +1,7 @@
+node_modules/
+remotion-dashboard/out/
+remotion-dashboard/dist/
+remotion-dashboard/.remotion/
+__pycache__/
+*.pyc
+remotion-dashboard/.DS_Store

@@ -35,7 +35,7 @@ export const HorizontalBar: React.FC<HorizontalBarProps> = ({
       style={{
         display: "flex",
         flexDirection: "column",
-        gap: 16,
+        gap: 24,
         width: "100%",
       }}
     >
@@ -82,7 +82,7 @@ export const HorizontalBar: React.FC<HorizontalBarProps> = ({
               >
                 <div
                   style={{
-                    fontSize: 16,
+                    fontSize: 28,
                     fontWeight: 700,
                     color: item.color,
                     fontFamily: TITLE_FONT,
@@ -95,7 +95,7 @@ export const HorizontalBar: React.FC<HorizontalBarProps> = ({
                 {item.subLabel && (
                   <div
                     style={{
-                      fontSize: 13,
+                      fontSize: 22,
                       color: "rgba(255,255,255,0.4)",
                       fontFamily: BODY_FONT,
                     }}
@@ -106,7 +106,7 @@ export const HorizontalBar: React.FC<HorizontalBarProps> = ({
               </div>
               <div
                 style={{
-                  fontSize: 18,
+                  fontSize: 28,
                   fontWeight: 700,
                   color: "white",
                   fontFamily: BODY_FONT,

@@ -229,7 +229,7 @@ export const Dashboard: React.FC<{ data?: DashboardData }> = ({
           position: "absolute",
           bottom: 28,
           right: 50,
-          fontSize: 13,
+          fontSize: 18,
           color: "#666666",
           fontFamily: BODY_FONT,
           opacity: footerOpacity,

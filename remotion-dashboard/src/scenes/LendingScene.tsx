@@ -74,8 +74,8 @@ export const LendingScene: React.FC<LendingSceneProps> = ({ data }) => {
         data={ext.monthly_completions}
         delay={8}
         color="#FF0000"
-        height={180}
-        width={700}
+        height={220}
+        width={900}
       />
 
       {/* Divider */}
@@ -103,7 +103,7 @@ export const LendingScene: React.FC<LendingSceneProps> = ({ data }) => {
       >
         <div
           style={{
-            fontSize: 13,
+            fontSize: 22,
             color: "rgba(255,255,255,0.4)",
             fontFamily: BODY_FONT,
             textTransform: "uppercase",
@@ -114,8 +114,8 @@ export const LendingScene: React.FC<LendingSceneProps> = ({ data }) => {
         </div>
         <div
           style={{
-            width: 200,
-            height: 6,
+            width: 280,
+            height: 10,
             borderRadius: 3,
             background: "rgba(255,255,255,0.1)",
             overflow: "hidden",
@@ -133,7 +133,7 @@ export const LendingScene: React.FC<LendingSceneProps> = ({ data }) => {
         </div>
         <div
           style={{
-            fontSize: 13,
+            fontSize: 22,
             color: "rgba(255,255,255,0.4)",
             fontFamily: BODY_FONT,
             textTransform: "uppercase",

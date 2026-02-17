@@ -41,8 +41,8 @@ export const FunderRing: React.FC<FunderRingProps> = ({ funder, delay }) => {
   const opacity = interpolate(entrance, [0, 1], [0, 1]);
   const scale = interpolate(entrance, [0, 1], [0.8, 1]);
 
-  const size = 150;
-  const strokeWidth = 12;
+  const size = 190;
+  const strokeWidth = 16;
   const radius = (size - strokeWidth) / 2;
   const center = size / 2;
   const circumference = 2 * Math.PI * radius;
@@ -104,7 +104,7 @@ export const FunderRing: React.FC<FunderRingProps> = ({ funder, delay }) => {
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
-            fontSize: 24,
+            fontSize: 38,
             fontWeight: 700,
             color: "white",
             fontFamily: TITLE_FONT,
@@ -115,7 +115,7 @@ export const FunderRing: React.FC<FunderRingProps> = ({ funder, delay }) => {
       </div>
       <div
         style={{
-          fontSize: 16,
+          fontSize: 26,
           fontWeight: 700,
           color: funder.color,
           fontFamily: TITLE_FONT,
@@ -127,7 +127,7 @@ export const FunderRing: React.FC<FunderRingProps> = ({ funder, delay }) => {
       </div>
       <div
         style={{
-          fontSize: 14,
+          fontSize: 22,
           color: "rgba(255,255,255,0.6)",
           fontFamily: BODY_FONT,
           textAlign: "center",

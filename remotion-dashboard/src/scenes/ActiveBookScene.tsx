@@ -98,7 +98,7 @@ export const ActiveBookScene: React.FC<ActiveBookSceneProps> = ({ data }) => {
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
-        gap: 32,
+        gap: 48,
         width: "100%",
         height: "100%",
         justifyContent: "center",
@@ -123,7 +123,7 @@ export const ActiveBookScene: React.FC<ActiveBookSceneProps> = ({ data }) => {
       >
         <div
           style={{
-            fontSize: 80,
+            fontSize: 120,
             fontWeight: 900,
             color: "white",
             fontFamily: TITLE_FONT,
@@ -135,7 +135,7 @@ export const ActiveBookScene: React.FC<ActiveBookSceneProps> = ({ data }) => {
         </div>
         <div
           style={{
-            fontSize: 14,
+            fontSize: 26,
             fontWeight: 700,
             color: "rgba(255,255,255,0.4)",
             textTransform: "uppercase",

@@ -57,7 +57,7 @@ export const FunderScene: React.FC<FunderSceneProps> = ({ data }) => {
       />
 
       <div style={{ width: "100%" }}>
-        <HorizontalBar items={barItems} delay={6} barHeight={32} />
+        <HorizontalBar items={barItems} delay={6} barHeight={40} />
       </div>
     </div>
   );

@@ -100,7 +100,7 @@ export const OverviewScene: React.FC<OverviewSceneProps> = ({ data }) => {
         />
         <div
           style={{
-            fontSize: 15,
+            fontSize: 24,
             fontWeight: 700,
             color: "rgba(255,255,255,0.4)",
             textTransform: "uppercase",

@@ -77,7 +77,7 @@ export const TrendChart: React.FC<TrendChartProps> = ({
             >
               <div
                 style={{
-                  fontSize: 13,
+                  fontSize: 24,
                   color: "rgba(255,255,255,0.7)",
                   fontWeight: 700,
                   fontFamily: BODY_FONT,
@@ -97,7 +97,7 @@ export const TrendChart: React.FC<TrendChartProps> = ({
               />
               <div
                 style={{
-                  fontSize: 12,
+                  fontSize: 22,
                   color: "rgba(255,255,255,0.4)",
                   fontWeight: 400,
                   fontFamily: BODY_FONT,

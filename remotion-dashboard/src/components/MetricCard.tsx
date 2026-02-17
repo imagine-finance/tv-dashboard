@@ -50,7 +50,7 @@ export const MetricCard: React.FC<MetricCardProps> = ({
         alignItems: "center",
         justifyContent: "center",
         width: 560,
-        height: 260,
+        height: 300,
         borderRadius: 20,
         background: "rgba(255,255,255,0.05)",
         border: "1px solid rgba(255,255,255,0.1)",
@@ -62,7 +62,7 @@ export const MetricCard: React.FC<MetricCardProps> = ({
     >
       <div
         style={{
-          fontSize: 96,
+          fontSize: 110,
           fontWeight: 900,
           color: "white",
           lineHeight: 1,
@@ -74,7 +74,7 @@ export const MetricCard: React.FC<MetricCardProps> = ({
       </div>
       <div
         style={{
-          fontSize: 20,
+          fontSize: 32,
           fontWeight: 700,
           color: "#FF0000",
           textTransform: "uppercase",

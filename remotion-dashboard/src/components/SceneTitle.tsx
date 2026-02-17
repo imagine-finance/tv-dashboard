@@ -41,7 +41,7 @@ export const SceneTitle: React.FC<SceneTitleProps> = ({
     >
       <div
         style={{
-          fontSize: 40,
+          fontSize: 64,
           fontWeight: 900,
           color: "white",
           fontFamily: TITLE_FONT,
@@ -54,7 +54,7 @@ export const SceneTitle: React.FC<SceneTitleProps> = ({
       {subtitle && (
         <div
           style={{
-            fontSize: 18,
+            fontSize: 30,
             fontWeight: 500,
             color: "rgba(255,255,255,0.5)",
             fontFamily: BODY_FONT,

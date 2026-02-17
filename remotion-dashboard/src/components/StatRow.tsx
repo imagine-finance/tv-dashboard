@@ -26,7 +26,7 @@ export const StatRow: React.FC<StatRowProps> = ({ stats, delay }) => {
     <div
       style={{
         display: "flex",
-        gap: 40,
+        gap: 60,
         justifyContent: "center",
       }}
     >
@@ -53,7 +53,7 @@ export const StatRow: React.FC<StatRowProps> = ({ stats, delay }) => {
           >
             <div
               style={{
-                fontSize: 42,
+                fontSize: 64,
                 fontWeight: 900,
                 color: stat.color ?? "white",
                 fontFamily: TITLE_FONT,
@@ -65,7 +65,7 @@ export const StatRow: React.FC<StatRowProps> = ({ stats, delay }) => {
             </div>
             <div
               style={{
-                fontSize: 14,
+                fontSize: 22,
                 fontWeight: 700,
                 color: "rgba(255,255,255,0.5)",
                 textTransform: "uppercase",
